@@ -1,0 +1,13 @@
+body{
+    background-color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.headersection{
+    padding: 0%;
+    align-items: center;
+    font-weight: 100;
+}
+.about{
+    background-color: rgba(245, 160, 160, 0.295);
+}
