@@ -1,21 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-    <title>home page</title>
+    <head>
+        <title>home page</title>
+        <link rel="stylesheet" href="styling.css">
 
+        <script>
+            function myfunction(){
+                document.getElementById("demo").innerHTML = "paragraph has been changed"
+            }
 
+            function functiontwo(){
+                document.getElementById("bg").style.backgroundColor = "yellow"
+                
+            }
+        </script>
 
-
-
+    </head>
 
     <body>
+        <p id="demo">the test</p>
+        <button type="button" onclick="myfunction()">click and see</button>
         <div class="headersection">
             <img src="images/rooms.jpeg" alt="the logo">
-            <h1>WELCOME TO KANBERRA HOTEL</h1>
+            <h1 id="demo">WELCOME TO KANBERRA HOTEL</h1>
         </div>
 
-        <div class="room">
+
+        <button type="button" onclick="myfunction2()">
+        <div class="room" id="bg">
+            
             <a href="room.html"><img src="images/rooms.jpeg" alt="">
-            </a>            
+            </a>    
+            </button>        
+            
         </div>
 
         <div class="food">
